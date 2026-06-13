@@ -30,12 +30,17 @@
 
 
 
-5\. What is the difference between a commit, push, and pull? 
+5\. What is the difference between a commit, push, and pull?
 
-* Records changes to the local repository. 
+* Records changes to the local repository.
 * Sends committed changes to a remote repository.
 * Retrieves and merge changes from a remote repository into the local repository.
-* These operations ensure that code changes are synchronized across developers and environments.  
+* These operations ensure that code changes are synchronized across developers and environments.
 
 
 
+6\.  What is the purpose of a remote repository? 
+
+* A remote repository is a central location where team members share code.
+* It enables collaboration, version tracking, and integration with CI/CD pipelines.
+* Platforms like GitHub, GitLab, and Bitbucket provide additional features such as access control, issue tracking, and pull request management.
