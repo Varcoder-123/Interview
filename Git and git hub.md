@@ -39,8 +39,40 @@
 
 
 
-6\.  What is the purpose of a remote repository? 
+6\.  What is the purpose of a remote repository?
 
 * A remote repository is a central location where team members share code.
-* It enables collaboration, version tracking, and integration with CI/CD pipelines.
-* Platforms like GitHub, GitLab, and Bitbucket provide additional features such as access control, issue tracking, and pull request management.
+* It enables **collaboration**, **version tracking**, and integration with **CI/CD pipelines**.
+* Platforms like GitHub, GitLab, and Bitbucket provide additional features such as **access control, issue tracking, and pull request management.**
+
+
+
+7\. What are forks and clones, and how are they different?
+
+* Clone: Creates a local copy of a remote repository into our local machines.
+* Fork: Creates a personal copy of someone else’s repository, under the GitHub account
+* Forks are used for **open-source collaboration**, while clones are used for **team development** within an organization.
+
+
+
+8\. How do pull requests or merge requests work?
+
+* Pull requests (GitHub) or merge requests (GitLab/Bitbucket) are a mechanism to **review and integrate code changes**.
+* Developers submit their branch for review, where peers can **comment**, suggest **improvements**, or **approve changes**.
+* Once approved, the changes are merged into the main branch, **maintaining code quality** and **collaboration standards**.
+
+
+
+9\. How do access control and permissions work in remote repositories
+
+* Repository owners can assign roles such as Admin, Developer, or Reporter to control read/write access.
+* **Fine-grained permissions** ensure that only authorized users can merge, modify, or delete code, maintaining security and compliance.
+
+
+
+10\. How do teams manage conflicts during merging?
+
+* Conflicts occur when multiple developers modify the same lines of code.
+* Git highlights conflicts during merge or rebase.
+* Developers manually review the conflicting changes and decide which code should be kept.
+* Merge or rebase frequently to keep branches up to date with the main branch.
