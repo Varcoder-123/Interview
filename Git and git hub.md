@@ -76,3 +76,19 @@
 * Git highlights conflicts during merge or rebase.
 * Developers manually review the conflicting changes and decide which code should be kept.
 * Merge or rebase frequently to keep branches up to date with the main branch.
+
+
+
+11\. What is the importance of commit messages, and how should they be written?
+
+* Commit messages are used to describe the purpose of a commit and provide a clear history of changes in a Git repository
+* Good commit messages help developers understand what was changed and why, making collaboration, code reviews, debugging, and project maintenance easier.
+* They should be concise, meaningful, and written in an imperative style, such as 'Fix login bug' or 'Add Docker support'.
+
+
+
+12\.  How do code reviews improve software quality? 
+
+* Code reviews allow peers to evaluate changes such correctness, style, performance, and security.
+* They provide knowledge sharing, catch bugs early, and maintain coding standards.
+* Pull requests or merge requests facilitate structured review and feedback. 
